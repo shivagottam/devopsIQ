@@ -6,6 +6,7 @@ tasks:
     - checkout    
     - commands:
       - |
+       ./sonar_scanr.sh
        sonar-scanner \
         -Dsonar.projectKey= python \
         -Dsonar.sources=. \
